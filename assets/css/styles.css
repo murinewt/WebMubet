@@ -1,0 +1,34 @@
+body {
+  background-color:#fefefe;
+  color:rgb(0,0,0);
+}
+
+#hero {
+  width:100%;
+  height:100vh;
+  /*background-image:url("../../assets/img/MUBET NO BACKGROUND.png");*/
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    /*background-image:url("../../assets/img/MUBET NO BACKGROUND.png");*/
+    /*background-image:url("../../assets/img/pic1.jpg");*/
+  }
+}
+
+.navbar-light .navbar-brand {
+  background-position:center;
+  background-image:url("../../assets/img/MUBET NO BACKGROUND.png");
+  background-repeat:no-repeat;
+  width:100px;
+  height:100px;
+  background-size:80%;
+  background-color:#efefef;
+}
+
+.nav-link {
+}
+
